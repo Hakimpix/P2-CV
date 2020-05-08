@@ -1,0 +1,513 @@
+
+#conteneur
+
+{
+
+  
+  display: flex; 
+  width: 100%
+ 
+
+}
+
+@font-face {
+  font-family: 'gandhi_sansregular';
+  src: url('fonts/GandhiSans-Regular-webfont.eot');
+  src: url('fonts/GandhiSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/GandhiSans-Regular-webfont.woff2') format('woff2'),
+       url('fonts/GandhiSans-Regular-webfont.woff') format('woff'),
+       url('fonts/GandhiSans-Regular-webfont.ttf') format('truetype'),
+       url('fonts/GandhiSans-Regular-webfont.svg#gandhi_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1024px) 
+
+{
+
+#conteneur
+
+{
+  width: auto;
+  overflow: auto;
+  font-size: 1.2em;
+  
+ 
+  
+  
+}
+
+#main
+{
+  display: block;
+  width: auto;
+  margin-left: 0px;
+}
+
+#bandejaune
+{
+width: auto;
+
+
+}
+
+ul 
+{
+  flex-direction: column;
+}
+
+
+}
+
+
+
+
+#bandejaune
+{
+  
+  width: 30%;
+  
+  font-family: 'Gandhi_sansregular'; 
+  font-size: 0,7em;
+  background-color: #feca07;
+  
+}
+
+#imagecv
+{
+
+  
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+img
+
+{
+  
+  width: 120px;
+  border-radius: 50%;
+    
+
+  }
+
+
+h3
+
+{
+
+font-size: 30px;
+padding: 5px 10px 5px 10px; 
+
+}
+#contact
+
+{
+  
+  background-color: black;
+  color: #feca07;
+  text-align: center;
+} 
+
+#coordonnees
+
+{
+  font-size: 1em;
+  margin-left: 20px;
+  
+  margin-top: 40px;
+  
+  
+  
+
+}
+
+
+#apropos
+
+{
+  background-color: black;
+  color: #feca07;
+  text-align: center;
+  margin-top: 230px;
+}
+
+#describe
+
+{
+
+  margin-left: 20px;
+  margin-right: 20px;
+  flex: 1;
+  text-align: justify;
+   
+  
+}
+
+#loisirs
+{
+  
+
+  background-color: black;
+  color: #feca07;
+  text-align: center;
+  margin-top: 390px;
+  align-items: center;
+ 
+  
+}
+
+#icones
+
+{
+display: flex;
+justify-content: center;
+
+}
+
+
+.icone
+
+{
+
+  
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 15px;
+  display: inline-block;
+  text-align: center;
+ 
+
+
+}
+
+#video
+
+{
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 30px;
+  margin-top: 41px;
+
+}
+
+.fa-video
+
+{
+  font-size: 40px;
+  margin-left: 4px;
+  margin-top: 5px;
+}
+
+#travel
+
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 30px;
+  margin-top: 41px;
+  
+  
+
+}
+
+.fa-plane
+
+{
+  font-size: 40px;
+  margin-left: 4px;
+  margin-top: 5px;
+  
+}
+
+
+#sport
+
+{
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 30px;
+  margin-top: 41px;
+  
+
+}
+
+.fa-dumbbell
+
+{
+
+  font-size: 38px;  
+  margin-left: 1px;
+  margin-top: 5px;
+
+
+}
+
+
+
+#main
+ 
+{
+
+  width: 70%;
+  
+  font-family: 'Gandhi_sansregular'; 
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top:20px;
+  padding-bottom: 20px;
+
+}
+
+#fas fa-briefcase
+
+{
+
+background:#feca07;
+margin-top: 50px;
+
+}
+
+h1
+
+{  
+   font-size: 2.8em;
+   font-family: 'Gandhi_sansregular';  
+   margin-top: 80px;
+   margin-left: 60px;
+}
+#posteactuel
+{
+  font-family: 'Gandhi_sansregular';
+  margin-top: -15px;
+  margin-left: 60px;
+  margin-bottom: -10px;
+  line-height: 0px;
+  font-size: 1.1em;
+}
+
+.prenom
+{
+  color: #feca07;
+}
+
+h2
+
+
+{
+    font-family: 'Gandhi_sansregular';  
+    font-size: 1,1em;
+    margin-top: 40px;
+    margin-left: 70px;
+    
+    border-bottom: 1.5px solid #feca07;
+    line-height: 1.5em;
+
+}   
+
+
+#section_formation
+
+{
+
+  margin-top: 50px;
+
+}
+
+#section_experience
+
+{
+margin-top: 50px;
+}
+
+.formation
+
+{
+ 
+margin-top: 1px;
+margin-left: 40px;
+width: 90%;
+  
+}
+
+.experience
+
+{
+ 
+margin-top: 20px;
+margin-left: 40px;
+width: 90%;
+  
+}
+
+
+
+
+ul
+{
+
+margin-left: 1px;
+width: 100%;
+
+
+}
+
+li
+{
+
+display: flex;
+}
+.gauche
+
+{
+flex-direction: column;
+
+width: 40%;
+margin-left: 10px;
+}
+
+.droite
+
+{
+
+
+width: 80%;
+margin-left: 0px;
+}
+
+
+.point
+
+{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #feca07;
+  margin-left: -20px;
+  margin-bottom: -12px;
+  
+}
+
+.principal
+
+{
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #feca07;
+  margin-left: -19px; 
+  margin-bottom: -11px;
+  
+}
+.cercle
+
+{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border:1px solid #feca07;
+  margin-left: -23px;
+  margin-bottom: -10px;
+
+}
+
+
+
+h4
+
+{
+
+  
+
+}
+
+.ville
+{
+  margin-top: -10px;
+}
+.date
+{
+
+  
+  text-align: justify;
+  margin-top: -5px;
+
+}
+.sous-titre
+{
+font-weight: bold;
+margin-left: 50px;
+margin-top: 100px;
+
+
+
+}
+
+.poste
+
+{
+margin-left: 50px;
+margin-bottom: 4px;
+}
+
+.texte
+
+{
+margin-left: 50px;
+margin-top: 20px;
+}
+
+
+#footer
+
+{
+  margin-top:  100px;
+}
+
+#block
+
+{
+align-content: justify;
+display: flex;
+margin-top: 30px;
+}
+.name
+{
+font-weight: bold;
+}
+
+#recommandation
+
+{
+font-size: 1em;
+margin-left:80px;
+display: flex;
+}
+
+#recommandation2
+
+{
+font-size: 1em;
+margin-left:170px;
+display: flex;
+}
+
+
+
+
