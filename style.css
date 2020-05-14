@@ -24,54 +24,18 @@
 }
 
 
-@media screen and (min-width: 481px) and (max-width: 1024px) 
-
-{
-
-#conteneur
-
-{
-  width: auto;
-  overflow: auto;
-  font-size: 1.2em;
-  
- 
-  
-  
-}
-
-#main
-{
-  display: block;
-  width: auto;
-  margin-left: 0px;
-}
-
-#bandejaune
-{
-width: auto;
-
-
-}
-
-ul 
-{
-  flex-direction: column;
-}
-
-
-}
 
 
 
 
-#bandejaune
+
+.bandejaune
 {
   
-  width: 30%;
+  width:30%;
   
   font-family: 'Gandhi_sansregular'; 
-  font-size: 0,7em;
+  font-size: 1em;
   background-color: #feca07;
   
 }
@@ -293,11 +257,12 @@ h1
 #posteactuel
 {
   font-family: 'Gandhi_sansregular';
-  margin-top: -15px;
+  margin-top: -10px;
   margin-left: 60px;
-  margin-bottom: -10px;
+
   line-height: 0px;
-  font-size: 1.1em;
+  font-size: 1.3em;
+  
 }
 
 .prenom
@@ -427,13 +392,7 @@ margin-left: 0px;
 
 
 
-h4
 
-{
-
-  
-
-}
 
 .ville
 {
@@ -496,6 +455,7 @@ font-weight: bold;
 font-size: 1em;
 margin-left:80px;
 display: flex;
+
 }
 
 #recommandation2
@@ -508,4 +468,48 @@ display: flex;
 
 
 
+@media all and (max-width: 1100px) 
+
+{
+
+#conteneur
+
+{
+  width: 100%;
+  
+  font-size: 1.2em;
+  
+  flex-direction: column;
+  
+}
+
+#main
+{
+  flex-direction: column;
+  width: 100%;
+  margin-left: 0px;
+}
+
+
+
+
+
+
+}
+
+
+@media all and (min-width: 480px)
+
+{
+
+  .bandejaune
+{
+  
+  
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+}
 
