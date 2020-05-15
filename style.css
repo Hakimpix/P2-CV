@@ -29,7 +29,7 @@
 
 
 
-.bandejaune
+#bandejaune
 {
   
   width:30%;
@@ -270,12 +270,19 @@ h1
   color: #feca07;
 }
 
+hr
+{
+  width: 7%;
+  margin-left: 0em;
+  border:1px solid #feca07;
+  margin-top: -5px;
+}
 h2
 
 
 {
     font-family: 'Gandhi_sansregular';  
-    font-size: 1,1em;
+    font-size: 1em;
     margin-top: 40px;
     margin-left: 70px;
     
@@ -440,7 +447,7 @@ margin-top: 20px;
 #block
 
 {
-align-content: justify;
+
 display: flex;
 margin-top: 30px;
 }
@@ -468,47 +475,33 @@ display: flex;
 
 
 
-@media all and (max-width: 1100px) 
+
+@media all and (max-width: 850px)
 
 {
 
-#conteneur
+  #conteneur
+
+{
+  
+  
+flex-direction: column;
+
+  
+  
+}
+
+#bandejaune
 
 {
   width: 100%;
-  
-  font-size: 1.2em;
-  
   flex-direction: column;
-  
 }
 
 #main
 {
+
   flex-direction: column;
-  width: 100%;
-  margin-left: 0px;
-}
-
-
-
-
-
-
-}
-
-
-@media all and (min-width: 480px)
-
-{
-
-  .bandejaune
-{
-  
-  
-  width: 100%;
-  overflow: hidden;
-  
 }
 
 }
