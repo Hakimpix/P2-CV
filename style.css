@@ -230,7 +230,7 @@ justify-content: center;
   width: 70%;
   
   font-family: 'Gandhi_sansregular'; 
-  padding-left:20px;
+  padding-left:0px;
   padding-right: 20px;
   padding-top:20px;
   padding-bottom: 20px;
@@ -346,8 +346,6 @@ display: flex;
 .gauche
 
 {
-flex-direction: column;
-
 width: 40%;
 margin-left: 10px;
 }
@@ -476,18 +474,18 @@ display: flex;
 
 
 
-@media all and (max-width: 850px)
+@media all and (max-width: 980px)
 
 {
 
-  #conteneur
+#conteneur
 
 {
   
   
+
+width: 100%;
 flex-direction: column;
-
-  
   
 }
 
@@ -496,12 +494,81 @@ flex-direction: column;
 {
   width: 100%;
   flex-direction: column;
+  
 }
 
 #main
 {
 
+  width: 100%;
   flex-direction: column;
+  padding-left: 0px;
+  
+}
+
+h1
+{
+  width: 100%;
+  flex-direction: column;
+  margin-right: 55px;
+}
+.prenom
+
+{
+  width: 100%;
+  flex-direction: column;
+}
+#section_formation
+
+{
+
+  width: 100%;
+  flex-direction: column;
+}
+
+
+#section_experience
+
+{
+  width: 100%;
+  flex-direction: column;
+
+}
+
+ul
+{
+  width: 100%;
+  flex-direction: column;
+
+}
+
+li
+{
+  width: 100%;
+  flex-direction: column;
+
+}
+
+#footer
+
+{
+  width: 100%;
+  flex-direction: column;
+}
+
+#block
+{
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+#recommandation2
+
+{
+  width: 100%;
+  text-align: left;
+  margin-left: 80px;;
 }
 
 }
