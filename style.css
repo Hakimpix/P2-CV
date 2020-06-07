@@ -1,4 +1,13 @@
 
+
+
+body
+
+{
+  width: 100%;
+  overflow-x: hidden;
+}
+
 #conteneur
 
 {
@@ -9,6 +18,7 @@
  
 
 }
+
 
 @font-face {
   font-family: 'gandhi_sansregular';
@@ -67,6 +77,7 @@ font-size: 30px;
 padding: 5px 10px 5px 10px; 
 
 }
+
 #contact
 
 {
@@ -81,12 +92,7 @@ padding: 5px 10px 5px 10px;
 {
   font-size: 1em;
   margin-left: 20px;
-  
   margin-top: 40px;
-  
-  
-  
-
 }
 
 
@@ -129,6 +135,7 @@ padding: 5px 10px 5px 10px;
 {
 display: flex;
 justify-content: center;
+
 
 }
 
@@ -231,7 +238,7 @@ justify-content: center;
   
   font-family: 'Gandhi_sansregular'; 
   padding-left:0px;
-  padding-right: 20px;
+  padding-right: 0px;
   padding-top:20px;
   padding-bottom: 20px;
 
@@ -249,10 +256,11 @@ margin-top: 50px;
 h1
 
 {  
-   font-size: 2.8em;
+   font-size: 2.5em;
    font-family: 'Gandhi_sansregular';  
    margin-top: 80px;
    margin-left: 60px;
+   
 }
 #posteactuel
 {
@@ -485,16 +493,14 @@ display: flex;
 
 
 
-@media all and (max-width: 980px)
+@media all and (max-width: 700px)
 
 {
+
 
 #conteneur
 
 {
-  
-  
-
 width: 100%;
 flex-direction: column;
   
@@ -521,7 +527,7 @@ h1
 {
   width: 100%;
   flex-direction: column;
-  margin-right: 55px;
+  
 }
 .prenom
 
@@ -582,5 +588,24 @@ li
   margin-left: 80px;;
 }
 
+.formation
+
+{
+ 
+margin-top: 1px;
+margin-left: 40px;
+width: 90%;
+  
+}
+
+.experience
+
+{
+ 
+margin-top: 20px;
+margin-left: 40px;
+width: 90%;
+  
+}
 }
 
